@@ -8,7 +8,7 @@ const solds = products
 
 const mostSelled = solds.reduce((a, b) => Math.max(a, b));
 
-// Find and Style the entire row where the most selled lives
+// Find and Style the entire row where the most selled value lives
 
 const rows = [...document.querySelectorAll('.rowItem')]
 
@@ -20,7 +20,7 @@ row.style.borderColor = '#F08A5D';
 row.style.borderWidth = '4px';
 row.style.margin = '4px';
 
-// Find the element where the mostSelled value lives
+// Find the html element where the most selled value lives
 
 const item = products.find(product => product.innerText.includes(mostSelled));
 
