@@ -31,3 +31,4 @@ Mi recomendación es que mires las cinco primeras páginas.
 ## Features a implementar
 * [ ] Soporte para modo _mosaico_
 * [ ] Soporte para modo _mobile_
+* [ ] Script en package.json que genere el .zip a partir de la carpeta _assets_, _src_ y el archivo _manifest.json_
