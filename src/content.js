@@ -10,13 +10,14 @@ const mostSelled = solds.reduce((a, b) => Math.max(a, b));
 
 // Find and Style the entire row where the most selled lives
 
-const row = [...document.querySelectorAll('.rowItem')]
-  .find(row => row.innerText.includes(mostSelled));
+const rows = [...document.querySelectorAll('.rowItem')]
+
+const row = rows.find(row => row.innerText.includes(mostSelled));
   
-row[0].style.boxShadow = '0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23)';
-row[0].style.backgroundColor = '#F9ED69';
-row[0].style.borderColor = '#F08A5D';
-row[0].style.borderWidth = '4px';
+row.style.boxShadow = '0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23)';
+row.style.backgroundColor = '#F9ED69';
+row.style.borderColor = '#F08A5D';
+row.style.borderWidth = '4px';
 
 // Find the element where the mostSelled value lives
 
