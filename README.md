@@ -1,8 +1,13 @@
 # MercadoLibre-MasVendido
 Encontrá de manera rápida el artículo más vendido que estés buscando en MercadoLibre con esta extensión
 
+## Requisitos
+Solo tener Google Chrome instalado y actualizado.
 
-## Como?
+## Por qué?
+MercadoLibre **no** ofrece una manera de visualizar los productos más vendidos
+
+## Cómo?
 1. Abrí este link del Chrome Store: 
 
 2. Instalá la extensión
@@ -22,3 +27,7 @@ Mi recomendación es que mires las cinco primeras páginas.
 
 
 ![Celulares](http://i.imgur.com/k5Rhbbh.png "Celulares")
+
+## Features a implementar
+* [ ] Soporte para modo _mosaico_
+* [ ] Soporte para modo _mobile_
