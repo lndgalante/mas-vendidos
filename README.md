@@ -8,7 +8,7 @@ Solo tener Google Chrome instalado y actualizado.
 MercadoLibre **no** ofrece una manera de visualizar los productos más vendidos
 
 ## Cómo?
-1. Abrí este link del Chrome Store: 
+1. Abrí este link del Chrome Store: [MercadoLibre MásVendido](https://chrome.google.com/webstore/detail/mercadolibre-m%C3%A1s-vendido/ecmfdhafogloeacbceakgefanbkocdhk)
 
 2. Instalá la extensión
 
