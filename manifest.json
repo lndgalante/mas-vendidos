@@ -11,6 +11,9 @@
   "page_action": {
     "default_title": "Busca el más vendido"
   },
+  "browser_action": {
+    "default_icon": "assets/mercado-libre_128.png"
+  },
   "content_scripts": [
     {
       "matches": [
