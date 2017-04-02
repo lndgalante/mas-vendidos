@@ -1,45 +1,48 @@
 function findMostSelled() {
   // Find the most selled one on the list and save it to mostSelled
 
-  const products = [...document.querySelectorAll('.extra-info-sold')];
+  const infoSolds = [...document.querySelectorAll('.extra-info-sold')];
 
-  const solds = products
-    .map(product => product.innerText.replace(' vendidos', ''))
-    .map(price => parseInt(price));
+  const unitsSold = infoSolds
+    .map(infoSold => infoSold.innerText.replace(' vendidos', ''))
+    .map(soldQuantity => parseInt(soldQuantity));
 
-  const mostSelled = solds.reduce((a, b) => Math.max(a, b));
+  const mostSelled = unitsSold.reduce((a, b) => Math.max(a, b));
 
-  // Find and Style the entire row where the most selled value lives
+  // Find and Style the entire row where the mostSelled value lives
 
-  const rows = [...document.querySelectorAll('.rowItem')];
+  const rowItems = [...document.querySelectorAll('.rowItem')];
 
-  const row = rows.find(row => row.innerText.includes(mostSelled));
+  const rowItemElement = rowItems.find(row => {
+    const info = row.querySelector('.extra-info-sold');
+    return info ? info.innerText.includes(mostSelled) : false;
+  });
 
-  row.style.boxShadow = '0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23)';
-  row.style.backgroundColor = '#F9ED69';
-  row.style.borderColor = '#F08A5D';
-  row.style.borderWidth = '4px';
-  row.style.margin = '4px';
+  rowItemElement.style.boxShadow = '0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23)';
+  rowItemElement.style.backgroundColor = '#F9ED69';
+  rowItemElement.style.borderColor = '#F08A5D';
+  rowItemElement.style.borderWidth = '4px';
+  rowItemElement.style.margin = '4px';
 
   // Find the html element where the most selled value lives
 
-  const item = products.find(product => product.innerText.includes(mostSelled));
+  const mostSelledElement = infoSolds.find(product => product.innerText.includes(mostSelled));
 
-  item.style.borderRadius = '4px 0px 0px 4px';
-  item.style.textTransform = 'uppercase';
-  item.style.backgroundColor = '#212121';
-  item.style.padding = '2px 0px 2px 4px';
-  item.style.marginLeft = '-4px';
-  item.style.lineHeight = '1.2';
-  item.style.fontWeight = '700';
-  item.style.fontSize = '18px';
-  item.style.color = '#FFF';
+  mostSelledElement.style.borderRadius = '4px 0px 0px 4px';
+  mostSelledElement.style.textTransform = 'uppercase';
+  mostSelledElement.style.backgroundColor = '#212121';
+  mostSelledElement.style.padding = '2px 0px 2px 4px';
+  mostSelledElement.style.marginLeft = '-4px';
+  mostSelledElement.style.lineHeight = '1.2';
+  mostSelledElement.style.fontWeight = '700';
+  mostSelledElement.style.fontSize = '18px';
+  mostSelledElement.style.color = '#FFF';
 
-  // Scroll to where that item (row) is
+  // Scroll to where that mostSelledElement element is
 
-  const productHeight = document.querySelector('.rowItem').offsetHeight;
-  const itemRect = item.getBoundingClientRect();
-  const offset = itemRect.top + window.scrollY - productHeight;
+  const rowItemHeight = document.querySelector('.rowItem').offsetHeight;
+  const mostSelledElementRect = mostSelledElement.getBoundingClientRect();
+  const offset = mostSelledElementRect.top + window.scrollY - rowItemHeight;
 
   window.scrollTo(0, offset);
 }
