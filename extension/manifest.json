@@ -1,0 +1,26 @@
+{
+  "manifest_version": 2,
+  "name": "MercadoLibre Más Vendido",
+  "description": "Encontrá de manera rápida el artículo más vendido que estés buscando en MercadoLibre con esta extensión",
+  "version": "0.0.4",
+  "icons": {
+    "16": "assets/mercado-libre_16.png",
+    "48": "assets/mercado-libre_48.png",
+    "128": "assets/mercado-libre_128.png"
+  },
+  "browser_action": {
+    "default_title": "Busca el más vendido",
+    "default_icon": "assets/mercado-libre_128.png"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "http://*.mercadolibre.com.ar/*",
+        "https://*.mercadolibre.com.ar/*"
+      ],
+      "js": [
+        "src/content_script.js"
+      ]
+    }
+  ]
+}
