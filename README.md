@@ -31,5 +31,5 @@ Mi recomendación es que mires las cinco primeras páginas.
 ## Features a implementar
 * [x] Soporte para modo _mosaico_
 * [x] Soporte para modo _mobile_. No puede realizarse ya que la version mobile no tiene el dato de cantidad de vendidos.
-* [ ] Soporte para MercadoLibre de otros países, como por ej Chile, Bolivia, etc
+* [x] Soporte para MercadoLibre de otros países, como por ej Chile, Bolivia, etc
 * [ ] Script en package.json que genere el .zip a partir de la carpeta _assets_, _src_ y el archivo _manifest.json_

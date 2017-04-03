@@ -17,8 +17,27 @@
   "content_scripts": [
     {
       "matches": [
-        "http://*.mercadolibre.com.ar/*",
-        "https://*.mercadolibre.com.ar/*"
+        "*://*.mercadolibre.com.ar/*",
+        "*://*.mercadolibre.com.bo/*",
+        "*://*.mercadolibre.com.br/*",
+        "*://*.mercadolibre.com.cl/*",
+        "*://*.mercadolibre.com.co/*",
+        "*://*.mercadolibre.com.co.cr/*",
+        "*://*.mercadolibre.com.do/*",
+        "*://*.mercadolibre.com.ec/*",
+        "*://*.mercadolibre.com.gt/*",
+        "*://*.mercadolibre.com.hn/*",
+        "*://*.mercadolibre.com.mx/*",
+        "*://*.mercadolibre.com.mx/*",
+        "*://*.mercadolibre.com.ni/*",
+        "*://*.mercadolibre.com.ni/*",
+        "*://*.mercadolibre.com.pa/*",
+        "*://*.mercadolibre.com.py/*",
+        "*://*.mercadolibre.com.pe/*",
+        "*://*.mercadolibre.com.pt/*",
+        "*://*.mercadolibre.com.sv/*",
+        "*://*.mercadolibre.com.uy/*",
+        "*://*.mercadolibre.com.ve/*"
       ],
       "js": [
         "src/content_script.js"
