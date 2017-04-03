@@ -1,8 +1,9 @@
 {
   "manifest_version": 2,
   "name": "MercadoLibre Más Vendido",
-  "description": "Encontrá de manera rápida el artículo más vendido que estés buscando en MercadoLibre con esta extensión",
+  "short_name": "Más Vendido",
   "version": "0.0.5",
+  "description": "Encontrá de manera rápida el artículo más vendido que estés buscando en MercadoLibre con esta extensión",
   "icons": {
     "16": "assets/mercado-libre_16.png",
     "48": "assets/mercado-libre_48.png",
@@ -22,5 +23,6 @@
         "src/content_script.js"
       ]
     }
-  ]
+  ],
+  "author": "Leonardo Galante"
 }
