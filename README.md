@@ -28,8 +28,9 @@ Mi recomendación es que mires las cinco primeras páginas.
 
 ![Celulares](http://i.imgur.com/k5Rhbbh.png "Celulares")
 
-## Features a implementar
+## Cosas a hacer
 * [x] Soporte para modo _mosaico_
 * [x] Soporte para modo _mobile_. No puede realizarse ya que la version mobile no tiene el dato de cantidad de vendidos.
 * [x] Soporte para MercadoLibre de otros países, como por ej Chile, Bolivia, etc
+* [ ] Pareciera que no funciona en todos los países. Testear.
 * [ ] Script en package.json que genere el .zip a partir de la carpeta _assets_, _src_ y el archivo _manifest.json_
