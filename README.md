@@ -29,6 +29,7 @@ Mi recomendación es que mires las cinco primeras páginas.
 ![Celulares](http://i.imgur.com/k5Rhbbh.png "Celulares")
 
 ## Features a implementar
-* [ ] Soporte para modo _mosaico_
+* [x] Soporte para modo _mosaico_
 * [ ] Soporte para modo _mobile_
+* [ ] Soporte para MercadoLibre de otros países, como por ej Chile, Bolivia, etc
 * [ ] Script en package.json que genere el .zip a partir de la carpeta _assets_, _src_ y el archivo _manifest.json_
