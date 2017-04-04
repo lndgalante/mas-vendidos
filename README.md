@@ -42,7 +42,7 @@ Mi recomendación es que mires las cinco primeras páginas.
   * [x] Chile 🇨🇱
   * [x] Colombia 🇨🇴
   * [ ] Costa Rica 🇨🇷
-  * [ ] Dominicana 🇩🇴
+  * [x] Dominicana 🇩🇴
   * [ ] Ecuador 🇪🇨
   * [ ] Guatemala 🇬🇹
   * [ ] Honduras 🇭🇳
