@@ -43,7 +43,7 @@ Mi recomendación es que mires las cinco primeras páginas.
   * [x] Colombia 🇨🇴
   * [ ] Costa Rica 🇨🇷
   * [x] Dominicana 🇩🇴
-  * [ ] Ecuador 🇪🇨
+  * [x] Ecuador 🇪🇨
   * [ ] Guatemala 🇬🇹
   * [ ] Honduras 🇭🇳
   * [ ] México 🇲🇽
