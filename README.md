@@ -51,7 +51,7 @@ Mi recomendación es que mires las cinco primeras páginas.
   * [x] Panamá 🇵🇦
   * [x] Paraguay 🇵🇾
   * [x] Perú 🇵🇪
-  * [ ] Portugal 🇵🇹
+  * [x] Portugal 🇵🇹
   * [ ] Salvador 🇸🇻
   * [ ] Uruguay 🇺🇾
   * [ ] Venezuela 🇻🇪
