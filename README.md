@@ -54,6 +54,6 @@ Mi recomendación es que mires las cinco primeras páginas.
   * [x] Portugal 🇵🇹
   * [x] Salvador 🇸🇻
   * [x] Uruguay 🇺🇾
-  * [ ] Venezuela 🇻🇪
+  * [x] Venezuela 🇻🇪
 
 * [ ] Script que genere un **zip** a partir de la carpeta _extension_
