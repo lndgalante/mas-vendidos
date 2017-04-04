@@ -47,7 +47,7 @@ Mi recomendación es que mires las cinco primeras páginas.
   * [x] Guatemala 🇬🇹
   * [x] Honduras 🇭🇳
   * [x] México 🇲🇽
-  * [ ] Nicaragua 🇳🇮
+  * [x] Nicaragua 🇳🇮
   * [ ] Panamá 🇵🇦
   * [ ] Paraguay 🇵🇾
   * [ ] Perú 🇵🇪
