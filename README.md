@@ -29,19 +29,21 @@ Mi recomendación es que mires las cinco primeras páginas.
 ![Celulares](http://i.imgur.com/k5Rhbbh.png "Celulares")
 
 ## Cosas a hacer
-* [x] Soporte para modo _mosaico_
-
 * [ ] El modo _mosaico_ tiene lazy loading para los elementos por ende cuando se apendean elementos se genera un scrollTo
+
+* [ ] Script que genere un **zip** a partir de la carpeta _extension_
+
+* [x] Soporte para modo _mosaico_
 
 * [x] Soporte para modo _mobile_. No puede realizarse ya que la version mobile no tiene el dato de cantidad de vendidos
 
-* [ ] Soporte para MercadoLibre de otros países:
+* [x] Soporte para MercadoLibre de otros países:
   * [x] Argentina 🇦🇷
   * [x] Bolivia 🇧🇴
   * [x] Brasil 🇧🇷
   * [x] Chile 🇨🇱
   * [x] Colombia 🇨🇴
-  * [ ] Costa Rica 🇨🇷
+  * [x] Costa Rica 🇨🇷
   * [x] Dominicana 🇩🇴
   * [x] Ecuador 🇪🇨
   * [x] Guatemala 🇬🇹
@@ -55,5 +57,3 @@ Mi recomendación es que mires las cinco primeras páginas.
   * [x] Salvador 🇸🇻
   * [x] Uruguay 🇺🇾
   * [x] Venezuela 🇻🇪
-
-* [ ] Script que genere un **zip** a partir de la carpeta _extension_
