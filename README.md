@@ -50,7 +50,7 @@ Mi recomendación es que mires las cinco primeras páginas.
   * [x] Nicaragua 🇳🇮
   * [x] Panamá 🇵🇦
   * [x] Paraguay 🇵🇾
-  * [ ] Perú 🇵🇪
+  * [x] Perú 🇵🇪
   * [ ] Portugal 🇵🇹
   * [ ] Salvador 🇸🇻
   * [ ] Uruguay 🇺🇾
