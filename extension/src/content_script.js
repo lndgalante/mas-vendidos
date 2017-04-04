@@ -8,11 +8,9 @@ const viewModeActive = viewMode.className.includes('list selected') ? 'list' : '
 
 if (viewModeActive === 'gallery') {
   soldQuantitySelector = '.sold-quantity';
-  stringToReplace = ' vendidos ';
   itemHeight = 90;
 } else if (viewModeActive === 'list') {
   soldQuantitySelector = '.extra-info-sold';
-  stringToReplace = ' vendidos';
   itemHeight = 60;
 }
 
@@ -20,7 +18,7 @@ if (viewModeActive === 'gallery') {
 const infoSolds = [...document.querySelectorAll(soldQuantitySelector)];
 
 const unitsSold = infoSolds
-  .map(infoSold => infoSold.innerText.replace(stringToReplace, ''))
+  .map(infoSold => infoSold.innerText.replace(/\D/g, ''))
   .map(soldQuantity => isNaN(soldQuantity) ? 0 : parseInt(soldQuantity));
 
 const mostSelled = unitsSold.reduce((a, b) => Math.max(a, b));
