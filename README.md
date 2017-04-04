@@ -39,7 +39,7 @@ Mi recomendación es que mires las cinco primeras páginas.
   * [x] Argentina 🇦🇷
   * [x] Bolivia 🇧🇴
   * [x] Brasil 🇧🇷
-  * [ ] Chile 🇨🇱
+  * [x] Chile 🇨🇱
   * [ ] Colombia 🇨🇴
   * [ ] Costa Rica 🇨🇷
   * [ ] Dominicana 🇩🇴
