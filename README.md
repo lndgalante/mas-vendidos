@@ -30,8 +30,30 @@ Mi recomendación es que mires las cinco primeras páginas.
 
 ## Cosas a hacer
 * [x] Soporte para modo _mosaico_
-* [ ] El modo _mosaico_ tiene lazy loading para los elementos.
-* [x] Soporte para modo _mobile_. No puede realizarse ya que la version mobile no tiene el dato de cantidad de vendidos.
-* [x] Soporte para MercadoLibre de otros países, como por ej Chile, Bolivia, etc
-* [ ] No funciona en todos los países. Testear.
-* [ ] Script en package.json que genere el .zip a partir de la carpeta _assets_, _src_ y el archivo _manifest.json_
+
+* [ ] El modo _mosaico_ tiene lazy loading para los elementos por ende cuando se apendean elementos se genera un scrollTo
+
+* [x] Soporte para modo _mobile_. No puede realizarse ya que la version mobile no tiene el dato de cantidad de vendidos
+
+* [ ] Soporte para MercadoLibre de otros países:
+  * [x] Argentina 🇦🇷
+  * [ ] Bolivia 🇧🇴
+  * [ ] Brasil 🇧🇷
+  * [ ] Chile 🇨🇱
+  * [ ] Colombia 🇨🇴
+  * [ ] Costa Rica 🇨🇷
+  * [ ] Dominicana 🇩🇴
+  * [ ] Ecuador 🇪🇨
+  * [ ] Guatemala 🇬🇹
+  * [ ] Honduras 🇭🇳
+  * [ ] México 🇲🇽
+  * [ ] Nicaragua 🇳🇮
+  * [ ] Panamá 🇵🇦
+  * [ ] Paraguay 🇵🇾
+  * [ ] Perú 🇵🇪
+  * [ ] Portugal 🇵🇹
+  * [ ] Salvador 🇸🇻
+  * [ ] Uruguay 🇺🇾
+  * [ ] Venezuela 🇻🇪
+
+* [ ] Script que genere un **zip** a partir de la carpeta _extension_

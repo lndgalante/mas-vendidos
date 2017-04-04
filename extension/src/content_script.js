@@ -19,7 +19,6 @@ function findMostSelled() {
   }
 
   // Find the most selled one on the list and save it to mostSelled
-
   const infoSolds = [...document.querySelectorAll(soldQuantitySelector)];
 
   const unitsSold = infoSolds
