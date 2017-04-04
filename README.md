@@ -49,7 +49,7 @@ Mi recomendación es que mires las cinco primeras páginas.
   * [x] México 🇲🇽
   * [x] Nicaragua 🇳🇮
   * [x] Panamá 🇵🇦
-  * [ ] Paraguay 🇵🇾
+  * [x] Paraguay 🇵🇾
   * [ ] Perú 🇵🇪
   * [ ] Portugal 🇵🇹
   * [ ] Salvador 🇸🇻
