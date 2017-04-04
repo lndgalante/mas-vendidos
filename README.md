@@ -37,7 +37,7 @@ Mi recomendación es que mires las cinco primeras páginas.
 
 * [ ] Soporte para MercadoLibre de otros países:
   * [x] Argentina 🇦🇷
-  * [ ] Bolivia 🇧🇴
+  * [x] Bolivia 🇧🇴
   * [ ] Brasil 🇧🇷
   * [ ] Chile 🇨🇱
   * [ ] Colombia 🇨🇴
