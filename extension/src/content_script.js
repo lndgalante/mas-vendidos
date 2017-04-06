@@ -7,7 +7,6 @@ const viewMode = document.querySelector('.ico');
 const viewModeActive = viewMode.className.includes('list selected') ? 'list' : 'gallery';
 
 if (viewModeActive === 'gallery') {
-  // imagesViewer.map(imageViewer => imageViewer.innerHTML = null);
   soldQuantitySelector = '.sold-quantity';
   locationSelector = '.info-shipping';
   listSelector = '.gallery-large';
@@ -21,7 +20,6 @@ if (viewModeActive === 'gallery') {
 
 // Add "0 vendidos" to those products that didn't sell nothing yet
 const rowItems = [...document.querySelectorAll('.results-item')];
-
 rowItems.forEach(row => {
   const info = row.querySelector(soldQuantitySelector);
   if (!info) {
