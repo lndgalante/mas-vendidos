@@ -29,9 +29,9 @@ Mi recomendación es que mires las cinco primeras páginas.
 ![Celulares](http://i.imgur.com/k5Rhbbh.png "Celulares")
 
 ## Cosas a hacer
-* [ ] El modo _mosaico_ tiene lazy loading para los elementos por ende cuando se apendean elementos se genera un scrollTo
-
 * [ ] Script que genere un **zip** a partir de la carpeta _extension_
+
+* [x] El modo _mosaico_ tiene lazy loading para los elementos por ende cuando se apendean elementos se genera un scrollTo
 
 * [x] Soporte para modo _mosaico_
 
