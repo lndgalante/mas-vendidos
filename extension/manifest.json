@@ -4,14 +4,14 @@
   "author": "Leonardo Galante",
   "short_name": "Más Vendidos",
   "version": "0.1.0",
-  "description": "Busca de manera descendente los artículos más vendido que estés buscando en MercadoLibre con esta extensión",
+  "description": "Busca de manera descendente los artículos más vendidos que estés buscando en MercadoLibre con esta extensión",
   "icons": {
     "16": "assets/mercado-libre_16.png",
     "48": "assets/mercado-libre_48.png",
     "128": "assets/mercado-libre_128.png"
   },
   "browser_action": {
-    "default_title": "Busca los más vendido",
+    "default_title": "Busca los más vendidos",
     "default_icon": "assets/mercado-libre_128.png"
   },
   "content_scripts": [
