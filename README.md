@@ -32,6 +32,8 @@ Recomendación mira las tres primeras páginas. No siempre el más vendido esta 
 ![Sillones](http://i.imgur.com/En2ywJJ.png "Sillones")
 
 ## Cosas a hacer
+* [ ] Posibilidad de desactivar la extensión o bien que sea una opción dentro del menu "Más Relevantes - Menor precio - Mayor precio"
+
 * [ ] Script que genere un **zip** a partir de la carpeta _extension_
 
 * [x] El modo _mosaico_ tiene lazy loading para los elementos por ende cuando se apendean elementos se genera un scrollTo
