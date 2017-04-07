@@ -1,14 +1,14 @@
-# MercadoLibre-MasVendido
-Encontrá de manera rápida el artículo más vendido que estés buscando en MercadoLibre con esta extensión
+# MercadoLibre - Más Vendidos
+Busca de manera descendente los artículos más vendidos que estés buscando en MercadoLibre con esta extensión
 
 ## Requisitos
-Solo tener Google Chrome instalado y actualizado.
+Solo tener Google Chrome instalado y actualizado
 
 ## Por qué?
-MercadoLibre **no** ofrece una manera de visualizar los productos más vendidos
+MercadoLibre **no** ofrece una manera de visualizar los productos más vendidos de manera descendente
 
 ## Cómo?
-1. Abrí este link del Chrome Store: [MercadoLibre MásVendido](https://chrome.google.com/webstore/detail/mercadolibre-m%C3%A1s-vendido/ecmfdhafogloeacbceakgefanbkocdhk)
+1. Abrí este link del Chrome Store: [MercadoLibre Más Vendidos](https://chrome.google.com/webstore/detail/mercadolibre-m%C3%A1s-vendido/ecmfdhafogloeacbceakgefanbkocdhk)
 
 2. Instalá la extensión
 
@@ -17,16 +17,19 @@ MercadoLibre **no** ofrece una manera de visualizar los productos más vendidos
 ## Tener en cuenta
 Solo busca el más vendido en la página actual, no de todas las páginas. 
 
-Mi recomendación es que mires las cinco primeras páginas.
+Recomendación mira las tres primeras páginas. No siempre el más vendido esta en la primer página.
 
 ## Screenshots
-![Notebooks](http://i.imgur.com/IadQT6R.png "Notebooks")
+![Zapatillas](http://i.imgur.com/1riXJmR.png "Zapatillas")
 
 
-![Zapatillas](http://i.imgur.com/WAxC7kU.png "Zapatillas")
+![Notebooks](http://i.imgur.com/cGcTIlG.png "Notebooks")
 
 
-![Celulares](http://i.imgur.com/k5Rhbbh.png "Celulares")
+![Celulares](http://i.imgur.com/D2Jfpy1.png "Celulares")
+
+
+![Sillones](http://i.imgur.com/En2ywJJ.png "Sillones")
 
 ## Cosas a hacer
 * [ ] Script que genere un **zip** a partir de la carpeta _extension_
