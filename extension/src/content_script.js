@@ -37,9 +37,9 @@ const rowItemsSorted = rowItemsUpdated.sort((a, b) => {
   return valueA - valueB;
 });
 
-// Lets clean all items inside the list
+// Clean all items inside the list
 const listView = document.querySelector(listSelector);
 listView.innerHTML = null;
 
-// Now lets insert all the items ordered descendendly
+// Insert all the items sorted descendly
 rowItemsSorted.forEach(row => listView.insertAdjacentElement('afterbegin', row));
