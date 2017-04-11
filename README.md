@@ -37,10 +37,7 @@ Recomendación mira las tres primeras páginas. No siempre el más vendido esta 
 
 * [ ] Soporte para otros navegadores como por ejemplo Firefox
 
-
-* [ ] Script que genere un **zip** a partir de la carpeta _extension_
-
-* [ ] Landing Page explicando la extension y con links a las extensiones y GitHub
+* [x] Landing Page explicando la extension y con links a las extensiones y GitHub
 
 * [x] Compatibilidad para navegadores viejos (que no tengan soporte para ES6)
 
