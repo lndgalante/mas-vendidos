@@ -1,8 +1,9 @@
 # MercadoLibre - Más Vendidos
-Busca de manera descendente los artículos más vendidos que estés buscando en MercadoLibre con esta extensión
+Busca los artículos más vendidos que estés buscando con esta extensión
 
 ## Requisitos
-Solo tener Google Chrome instalado y en lo posible actualizado
+* Google Chrome
+* Firefox (soporte a futuro)
 
 ## Por qué?
 MercadoLibre **no** ofrece una manera de visualizar los productos más vendidos de manera descendente
@@ -36,9 +37,10 @@ Recomendación mira las tres primeras páginas. No siempre el más vendido esta 
 
 * [ ] Soporte para otros navegadores como por ejemplo Firefox
 
-* [ ] Landing Page explicando la extension y con links a las extensiones y GitHub
 
 * [ ] Script que genere un **zip** a partir de la carpeta _extension_
+
+* [ ] Landing Page explicando la extension y con links a las extensiones y GitHub
 
 * [x] Compatibilidad para navegadores viejos (que no tengan soporte para ES6)
 
