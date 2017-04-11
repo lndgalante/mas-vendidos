@@ -3,8 +3,8 @@
   "name": "MercadoLibre Más Vendidos",
   "author": "Leonardo Galante",
   "short_name": "Más Vendidos",
-  "version": "0.1.1",
-  "description": "Busca de manera descendente los artículos más vendidos que estés buscando en MercadoLibre con esta extensión",
+  "version": "0.1.2",
+  "description": "Busca los artículos más vendidos que estés buscando con esta extensión",
   "icons": {
     "16": "assets/mercado-libre_16.png",
     "48": "assets/mercado-libre_48.png",
@@ -14,32 +14,30 @@
     "default_title": "Busca los más vendidos",
     "default_icon": "assets/mercado-libre_128.png"
   },
-  "content_scripts": [
-    {
-      "matches": [
-        "*://*.mercadolibre.com.ar/*",
-        "*://*.mercadolibre.com.bo/*",
-        "*://*.mercadolivre.com.br/*",
-        "*://*.mercadolibre.cl/*",
-        "*://*.mercadolibre.com.co/*",
-        "*://*.mercadolibre.co.cr/*",
-        "*://*.mercadolibre.com.do/*",
-        "*://*.mercadolibre.com.ec/*",
-        "*://*.mercadolibre.com.gt/*",
-        "*://*.mercadolibre.com.hn/*",
-        "*://*.mercadolibre.com.mx/*",
-        "*://*.mercadolibre.com.ni/*",
-        "*://*.mercadolibre.com.pa/*",
-        "*://*.mercadolibre.com.py/*",
-        "*://*.mercadolibre.com.pe/*",
-        "*://*.mercadolivre.pt/*",
-        "*://*.mercadolibre.com.sv/*",
-        "*://*.mercadolibre.com.uy/*",
-        "*://*.mercadolibre.com.ve/*"
-      ],
-      "js": [
-        "src/content_script.js"
-      ]
-    }
-  ]
+  "content_scripts": [{
+    "matches": [
+      "*://*.mercadolibre.com.ar/*",
+      "*://*.mercadolibre.com.bo/*",
+      "*://*.mercadolivre.com.br/*",
+      "*://*.mercadolibre.cl/*",
+      "*://*.mercadolibre.com.co/*",
+      "*://*.mercadolibre.co.cr/*",
+      "*://*.mercadolibre.com.do/*",
+      "*://*.mercadolibre.com.ec/*",
+      "*://*.mercadolibre.com.gt/*",
+      "*://*.mercadolibre.com.hn/*",
+      "*://*.mercadolibre.com.mx/*",
+      "*://*.mercadolibre.com.ni/*",
+      "*://*.mercadolibre.com.pa/*",
+      "*://*.mercadolibre.com.py/*",
+      "*://*.mercadolibre.com.pe/*",
+      "*://*.mercadolivre.pt/*",
+      "*://*.mercadolibre.com.sv/*",
+      "*://*.mercadolibre.com.uy/*",
+      "*://*.mercadolibre.com.ve/*"
+    ],
+    "js": [
+      "src/content_script.js"
+    ]
+  }]
 }

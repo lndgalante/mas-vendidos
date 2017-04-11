@@ -1,6 +1,6 @@
 {
   "name": "mercadolibre-mas-vendidos",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Busca de manera descendente los artículos más vendidos que estés buscando en MercadoLibre con esta extensión",
   "devDependencies": {
     "babel-preset-es2015": "^6.24.1",
