@@ -34,7 +34,13 @@ Recomendación mira las tres primeras páginas. No siempre el más vendido esta 
 ## Cosas a hacer
 * [ ] Posibilidad de desactivar la extensión o bien que sea una opción dentro del menu "Más Relevantes - Menor precio - Mayor precio"
 
+* [ ] Soporte para otros navegadores como por ejemplo Firefox
+
+* [ ] Landing Page explicando la extension y con links a las extensiones y GitHub
+
 * [ ] Script que genere un **zip** a partir de la carpeta _extension_
+
+* [ ] Compatibilidad para navegadores viejos (que no tengan soporte para ES6)
 
 * [x] El modo _mosaico_ tiene lazy loading para los elementos por ende cuando se apendean elementos se genera un scrollTo
 
