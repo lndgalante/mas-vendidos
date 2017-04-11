@@ -4,7 +4,7 @@
   "author": "Leonardo Galante",
   "short_name": "Más Vendidos",
   "version": "0.1.2",
-  "description": "Busca los artículos más vendidos que estés buscando con esta extensión",
+  "description": "Busca los artículos más vendidos en MercadoLibre con esta extensión",
   "icons": {
     "16": "assets/mercado-libre_16.png",
     "48": "assets/mercado-libre_48.png",
