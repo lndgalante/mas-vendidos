@@ -1,7 +1,8 @@
 // Check if active view mode is List or Gallery mode
-let soldQuantitySelector;
-let stringToReplace;
-let itemHeight;
+let soldQuantitySelector = '';
+let locationSelector = '';
+let listSelector = '';
+let itemHeight = '';
 
 const viewMode = document.querySelector('.ico');
 const viewModeActive = viewMode.className.includes('list selected') ? 'list' : 'gallery';
@@ -18,7 +19,7 @@ if (viewModeActive === 'gallery') {
   itemHeight = 60;
 }
 
-// Add "0 vendidos" to those products that didn't sell nothing yet
+// Add a li element "0 vendidos" to those products that didn't sell nothing yet
 const rowItems = [...document.querySelectorAll('.results-item')];
 rowItems.forEach(row => {
   const info = row.querySelector(soldQuantitySelector);

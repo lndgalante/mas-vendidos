@@ -2,7 +2,7 @@
 Busca de manera descendente los artículos más vendidos que estés buscando en MercadoLibre con esta extensión
 
 ## Requisitos
-Solo tener Google Chrome instalado y actualizado
+Solo tener Google Chrome instalado y en lo posible actualizado
 
 ## Por qué?
 MercadoLibre **no** ofrece una manera de visualizar los productos más vendidos de manera descendente
@@ -40,7 +40,7 @@ Recomendación mira las tres primeras páginas. No siempre el más vendido esta 
 
 * [ ] Script que genere un **zip** a partir de la carpeta _extension_
 
-* [ ] Compatibilidad para navegadores viejos (que no tengan soporte para ES6)
+* [x] Compatibilidad para navegadores viejos (que no tengan soporte para ES6)
 
 * [x] El modo _mosaico_ tiene lazy loading para los elementos por ende cuando se apendean elementos se genera un scrollTo
 
