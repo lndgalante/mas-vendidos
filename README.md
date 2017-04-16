@@ -1,4 +1,4 @@
-# MercadoLibre - Más Vendidos
+# MercadoLibre Más Vendidos
 Busca los artículos más vendidos en MercadoLibre con esta extensión
 
 ## Requisitos
@@ -20,17 +20,11 @@ Solo busca el más vendido en la página actual, no de todas las páginas.
 
 Recomendación mira las tres primeras páginas. No siempre el más vendido esta en la primer página.
 
-## Screenshots
-![Zapatillas](http://i.imgur.com/1riXJmR.png "Zapatillas")
+## Antes
+![Antes](https://mercadolibre-masvendidos.now.sh/img/before.png "Antes")
 
-
-![Notebooks](http://i.imgur.com/cGcTIlG.png "Notebooks")
-
-
-![Celulares](http://i.imgur.com/D2Jfpy1.png "Celulares")
-
-
-![Sillones](http://i.imgur.com/En2ywJJ.png "Sillones")
+## Después
+![Después](https://mercadolibre-masvendidos.now.sh/img/after.png "Después")
 
 ## Cosas a hacer
 * [ ] Posibilidad de desactivar la extensión o bien que sea una opción dentro del menu "Más Relevantes - Menor precio - Mayor precio"
