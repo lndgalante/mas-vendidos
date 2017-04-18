@@ -27,7 +27,7 @@ Recomendación mira las tres primeras páginas. No siempre el más vendido esta 
 ![Después](https://mercadolibre-masvendidos.now.sh/img/after.png "Después")
 
 ## Cosas a hacer
-* [ ] Posibilidad de desactivar la extensión o bien que sea una opción dentro del menu "Más Relevantes - Menor precio - Mayor precio"
+* [ ] Posibilidad de desactivar la extensión clickeando en el īcono de la extensión
 
 * [ ] Soporte para otros navegadores como por ejemplo Firefox
 
