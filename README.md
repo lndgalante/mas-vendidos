@@ -1,5 +1,5 @@
 # MercadoLibre Más Vendidos
-Busca los artículos más vendidos en MercadoLibre con esta extensión
+> Busca los artículos más vendidos en MercadoLibre con esta extensión
 
 ## Requisitos
 * Google Chrome
