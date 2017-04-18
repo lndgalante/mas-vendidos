@@ -61,3 +61,7 @@ Recomendación mira las tres primeras páginas. No siempre el más vendido esta 
   * [x] Salvador 🇸🇻
   * [x] Uruguay 🇺🇾
   * [x] Venezuela 🇻🇪
+
+## License
+
+MIT © **[`Leonardo Galante`](https://leonardogalante.com/)**
