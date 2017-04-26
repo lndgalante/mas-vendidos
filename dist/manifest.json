@@ -49,9 +49,7 @@
   },
 
   "permissions": [
-      "activeTab",
-      "clipboardWrite",
-      "tabs",
-      "storage"
+      "activeTab"
+
   ]
 }
