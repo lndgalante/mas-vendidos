@@ -62,6 +62,9 @@ Recomendación mira las tres primeras páginas. No siempre el más vendido esta 
   * [x] Uruguay 🇺🇾
   * [x] Venezuela 🇻🇪
 
+## Contribuidores
+* [Micael Robles](https://github.com/erosilk)
+
 ## License
 
 MIT © **[`Leonardo Galante`](https://leonardogalante.com/)**

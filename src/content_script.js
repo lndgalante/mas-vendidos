@@ -1,16 +1,13 @@
 // Check if active view mode is List or Gallery mode
 
-
-chrome.runtime.sendMessage("getState", function(state){
- 	console.log(state);
-  if (state){
-    sortItems();
+chrome.runtime.sendMessage('getState', function(state) {
+  console.log(state)
+  if (state) {
+    sortItems()
   }
-});
-
+})
 
 function sortItems() {
-
   let soldQuantitySelector = ''
   let locationSelector = ''
   let listSelector = ''
@@ -55,5 +52,4 @@ function sortItems() {
 
   // Insert all the items sorted descendly
   rowItemsSorted.forEach(row => listView.insertAdjacentElement('afterbegin', row))
-
 }
