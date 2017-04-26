@@ -2,7 +2,7 @@ const gulp = require('gulp')
 const babel = require('gulp-babel')
 const uglify = require('gulp-uglify')
 
-const src = './src/content_script.js'
+const src = './src/*.js'
 const dest = './dist/src'
 
 gulp.task('js', () => {

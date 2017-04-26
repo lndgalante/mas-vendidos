@@ -1,0 +1,1 @@
+"use strict";var enabled=!0;chrome.extension.onMessage.addListener(function(e,t,a){"getState"==e?a(enabled):(enabled="Activar"==e,enabled?chrome.browserAction.setIcon({path:"assets/mercado-libre_128.png"}):chrome.browserAction.setIcon({path:"assets/mercado-libre-gray_128.png"}))});
