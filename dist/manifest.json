@@ -5,6 +5,7 @@
   "short_name": "Más Vendidos",
   "version": "0.2.1",
   "description": "Busca los artículos más vendidos en MercadoLibre con esta extensión",
+  "homepage_url": "https://mercadolibre-masvendidos.now.sh",
   "icons": {
     "16": "assets/mercado-libre_16.png",
     "48": "assets/mercado-libre_48.png",
