@@ -1,6 +1,6 @@
 {
   "name": "mercadolibre-mas-vendidos",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Busca los artículos más vendidos en MercadoLibre con esta extensión",
   "repository": "fenwil/mercadolibre-masvendidos",
   "homepage": "https://mercadolibre-masvendidos.now.sh",
@@ -10,6 +10,13 @@
     "email": "lndgalante@gmail.com",
     "url": "leonardogalante.com"
   },
+  "contributors": [
+    {
+      "name": "Micael Robles",
+      "email": "micael.robles@gmail.com",
+      "url": "www.micaelrobles.info"
+    }
+  ],
   "devDependencies": {
     "gulp": "^3.9.1",
     "gulp-babel": "^6.1.2",

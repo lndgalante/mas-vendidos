@@ -1,14 +1,10 @@
 var btnUpdate = document.getElementById('btnUpdate')
 btnUpdate.addEventListener('click', updateState)
-chrome.runtime.sendMessage('getState', function(enabled) {
-  enabled ? (btnUpdate.innerHTML = 'Desactivar') : (btnUpdate.innerHTML = 'Activar')
-})
+
+chrome.runtime.sendMessage('getState', enabled => (btnUpdate.innerHTML = enabled ? 'Desactivar' : 'Activar'))
+
 function updateState() {
   chrome.runtime.sendMessage(btnUpdate.innerHTML)
-  if (btnUpdate.innerHTML == 'Activar') {
-    btnUpdate.innerHTML = 'Desactivar'
-  } else {
-    btnUpdate.innerHTML = 'Activar'
-  }
+  btnUpdate.innerHTML = btnUpdate.innerHTML === 'Activar' ? 'Desactivar' : 'Activar'
   window.close()
 }

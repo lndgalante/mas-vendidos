@@ -1,13 +1,9 @@
-// Check if active view mode is List or Gallery mode
-
-chrome.runtime.sendMessage('getState', function(state) {
-  console.log(state)
-  if (state) {
-    sortItems()
-  }
+chrome.runtime.sendMessage('getState', state => {
+  if (state) sortItems()
 })
 
 function sortItems() {
+  // Check if active view mode is List or Gallery mode
   let soldQuantitySelector = ''
   let locationSelector = ''
   let listSelector = ''
