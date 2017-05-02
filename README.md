@@ -27,9 +27,9 @@ Recomendación mira las tres primeras páginas. No siempre el más vendido esta 
 ![Después](https://mercadolibre-masvendidos.now.sh/img/after.png "Después")
 
 ## Cosas a hacer
-* [ ] Posibilidad de desactivar la extensión clickeando en el īcono de la extensión
-
 * [ ] Soporte para otros navegadores como por ejemplo Firefox
+
+* [x] Posibilidad de desactivar la extensión clickeando en el īcono de la extensión
 
 * [x] Landing Page explicando la extension y con links a las extensiones y GitHub
 
