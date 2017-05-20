@@ -18,10 +18,25 @@
     }
   ],
   "devDependencies": {
+    "babel-preset-es2015": "^6.24.1",
     "gulp": "^3.9.1",
     "gulp-babel": "^6.1.2",
     "gulp-uglify": "^2.1.2",
-    "babel-preset-es2015": "^6.24.1"
+    "husky": "^0.13.3",
+    "lint-staged": "^3.4.2",
+    "xo": "^0.18.2"
+  },
+  "scripts": {
+    "format": "prettier --write --print-width 120 --single-quote true --trailing-comma es5 --no-semi src/*.js",
+    "precommit": "lint-staged",
+    "lint": "xo"
+  },
+  "lint-staged": {
+    "*.js": [
+      "npm run format",
+      "npm run lint",
+      "git add"
+    ]
   },
   "keywords": [
     "mercadolibre",
