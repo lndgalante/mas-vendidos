@@ -1,6 +1,6 @@
 {
   "name": "mercadolibre-mas-vendidos",
-  "version": "0.2.3",
+  "version": "0.2.4",
   "description": "Busca los artículos más vendidos en MercadoLibre con esta extensión",
   "repository": "fenwil/mercadolibre-masvendidos",
   "homepage": "https://mercadolibre-masvendidos.now.sh",
@@ -43,7 +43,7 @@
     }
   },
   "lint-staged": {
-    "*.js": [
+    "src/*.js": [
       "npm run format",
       "npm run lint",
       "git add"
