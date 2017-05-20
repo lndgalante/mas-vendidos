@@ -33,7 +33,13 @@
     "build": "gulp"
   },
   "xo": {
-    "semicolon": false
+    "semicolon": false,
+    "rules": {
+      "object-curly-spacing": [
+        "error",
+        "never"
+      ]
+    }
   },
   "lint-staged": {
     "*.js": [
