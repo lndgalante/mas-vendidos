@@ -6,14 +6,14 @@
 * Firefox (soporte a futuro)
 
 ## Por qué?
-MercadoLibre **no** ofrece una manera de visualizar los productos más vendidos de manera descendente
+MercadoLibre **no ofrece** una manera de visualizar los productos más vendidos de manera descendente
 
 ## Cómo?
 1. Abrí este link del Chrome Store: [MercadoLibre Más Vendidos](https://chrome.google.com/webstore/detail/mercadolibre-m%C3%A1s-vendido/ecmfdhafogloeacbceakgefanbkocdhk)
 
-2. Instalá la extensión
+2. Instalá la extensión haciendo click en "✚ Agregar a Chrome"
 
-3. Busca el artículo que desees
+3. Entra a [MercadoLibre](http://www.mercadolibre.com.ar) y busca el artículo que desees
 
 ## Tener en cuenta
 Solo busca el más vendido en la página actual, no de todas las páginas. 
