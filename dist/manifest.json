@@ -50,6 +50,7 @@
     ]
   },
   "permissions": [
-    "activeTab"
+    "activeTab",
+    "storage"
   ]
 }
