@@ -1,16 +1,14 @@
-var enabled = true;
+let enabled = true
 
-chrome.extension.onMessage.addListener(
-    function(request, sender, sendResponse) {
-        if (request == "getState") {
-            sendResponse(enabled);
-        } else {
-            enabled = request == "Activar";
-            enabled ? chrome.browserAction.setIcon({
-                path: "assets/mercado-libre_128.png"
-            }) : chrome.browserAction.setIcon({
-                path: "assets/mercado-libre-gray_128.png"
-            })
-        }
-    }
-);
+/* global chrome */
+/* eslint no-undef: "error" */
+
+chrome.extension.onMessage.addListener((request, sender, sendResponse) => {
+  if (request === 'getState') {
+    sendResponse(enabled)
+  } else {
+    enabled = request === 'Activar'
+    const path = enabled ? 'assets/mercado-libre_128.png' : 'assets/mercado-libre-disabled_128.png'
+    chrome.browserAction.setIcon({ path })
+  }
+})

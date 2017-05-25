@@ -6,14 +6,14 @@
 * Firefox (soporte a futuro)
 
 ## Por qué?
-MercadoLibre **no** ofrece una manera de visualizar los productos más vendidos de manera descendente
+MercadoLibre **no ofrece** una manera de visualizar los productos más vendidos de manera descendente
 
 ## Cómo?
 1. Abrí este link del Chrome Store: [MercadoLibre Más Vendidos](https://chrome.google.com/webstore/detail/mercadolibre-m%C3%A1s-vendido/ecmfdhafogloeacbceakgefanbkocdhk)
 
-2. Instalá la extensión
+2. Instalá la extensión haciendo click en "✚ Agregar a Chrome"
 
-3. Busca el artículo que desees
+3. Entra a [MercadoLibre](http://www.mercadolibre.com.ar) y busca el artículo que desees
 
 ## Tener en cuenta
 Solo busca el más vendido en la página actual, no de todas las páginas. 
@@ -21,15 +21,15 @@ Solo busca el más vendido en la página actual, no de todas las páginas.
 Recomendación mira las tres primeras páginas. No siempre el más vendido esta en la primer página.
 
 ## Antes
-![Antes](https://mercadolibre-masvendidos.now.sh/img/before.png "Antes")
+![Antes](https://mercadolibre-masvendidos.now.sh/img/beforeOptimized.png "Antes")
 
 ## Después
-![Después](https://mercadolibre-masvendidos.now.sh/img/after.png "Después")
+![Después](https://mercadolibre-masvendidos.now.sh/img/afterOptimized.png "Después")
 
 ## Cosas a hacer
-* [ ] Posibilidad de desactivar la extensión clickeando en el īcono de la extensión
-
 * [ ] Soporte para otros navegadores como por ejemplo Firefox
+
+* [x] Posibilidad de desactivar la extensión clickeando en el īcono de la extensión
 
 * [x] Landing Page explicando la extension y con links a las extensiones y GitHub
 
@@ -62,6 +62,9 @@ Recomendación mira las tres primeras páginas. No siempre el más vendido esta 
   * [x] Uruguay 🇺🇾
   * [x] Venezuela 🇻🇪
 
-## License
+## Contribuidores
+* [Micael Robles](https://github.com/erosilk)
+
+## Licencia
 
 MIT © **[`Leonardo Galante`](https://leonardogalante.com/)**
