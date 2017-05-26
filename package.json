@@ -28,9 +28,9 @@
     "xo": "^0.18.2"
   },
   "scripts": {
-    "format": "prettier --write --print-width 120 --single-quote true --trailing-comma es5 --no-semi",
+    "format": "prettier --print-width 120 --trailing-comma es5 --single-quote --no-semi --write",
     "precommit": "lint-staged",
-    "lint": "xo --fix",
+    "lint": "xo --quiet",
     "build": "gulp"
   },
   "xo": {
@@ -49,8 +49,8 @@
   },
   "lint-staged": {
     "src/*.js": [
-      "npm run format",
       "npm run lint",
+      "npm run format",
       "git add"
     ]
   },
