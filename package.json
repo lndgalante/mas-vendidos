@@ -35,7 +35,13 @@
   },
   "xo": {
     "semicolon": false,
-    "space": true
+    "space": true,
+    "rules": {
+      "object-curly-spacing": [
+        "error",
+        "always"
+      ]
+    }
   },
   "lint-staged": {
     "src/*.js": [
