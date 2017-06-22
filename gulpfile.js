@@ -8,15 +8,9 @@ const dest = 'dist/src'
 gulp.task('js', () => {
   gulp
     .src(src)
-    .pipe(
-      babel({
-        presets: ['es2015']
-      })
-    )
-    .pipe(uglify())
+    .pipe(babel({ presets: ['es2015'] }))
+    .pipe(uglify().on('error', e => console.log(e)))
     .pipe(gulp.dest(dest))
 })
 
-gulp.task('default', ['js'], () => {
-  gulp.watch(src, ['js'])
-})
+gulp.task('default', ['js'], () => gulp.watch(src, ['js']))
