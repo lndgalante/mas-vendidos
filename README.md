@@ -27,11 +27,8 @@ Solo busca el más vendido en la página actual, no de todas las páginas.
 
 Recomendación mira las tres primeras páginas. No siempre el más vendido esta en la primer página.
 
-## Antes
-![Antes](https://mercadolibre-masvendidos.now.sh/img/beforeOptimized.png "Antes")
-
-## Después
-![Después](https://mercadolibre-masvendidos.now.sh/img/afterOptimized.png "Después")
+## Screenshot
+![Screenshot](https://mercadolibre-masvendidos.now.sh/img/screenshot.png "Screenshot")
 
 ## Cosas a hacer
 * [ ] Soporte para otros navegadores como por ejemplo Firefox
