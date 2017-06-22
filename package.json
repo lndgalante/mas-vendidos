@@ -1,6 +1,6 @@
 {
   "name": "mercadolibre-mas-vendidos",
-  "version": "0.3.0",
+  "version": "1.0.0",
   "description": "Busca los artículos más vendidos en MercadoLibre con esta extensión",
   "repository": "fenwil/mercadolibre-masvendidos",
   "homepage": "https://mercadolibre-masvendidos.now.sh",
@@ -22,8 +22,8 @@
     "gulp": "^3.9.1",
     "gulp-babel": "^6.1.2",
     "gulp-uglify": "^3.0.0",
-    "husky": "^0.13.4",
-    "lint-staged": "^3.6.1",
+    "husky": "^0.14.0",
+    "lint-staged": "^4.0.0",
     "prettier": "^1.4.4",
     "xo": "^0.18.2"
   },

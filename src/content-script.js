@@ -8,36 +8,28 @@ chrome.runtime.sendMessage('getState', state => {
 })
 
 function sortItems() {
-  // Check if active view mode is List or Gallery mode
-  let soldQuantitySelector = ''
-  let locationSelector = ''
-  let listSelector = ''
-  const viewMode = document.querySelector('.ico')
-  const viewModeActive = viewMode.className.includes('list selected') ? 'list' : 'gallery'
+  // Declare ids and class selectors
+  const listSelector = '#searchResults'
+  const itemSelector = '.results-item'
+  const soldQuantitySelector = '.item__condition'
 
-  if (viewModeActive === 'gallery') {
-    soldQuantitySelector = '.sold-quantity'
-    locationSelector = '.info-shipping'
-    listSelector = '.gallery-large'
-  } else if (viewModeActive === 'list') {
-    soldQuantitySelector = '.extra-info-sold'
-    locationSelector = '.extra-info-location'
-    listSelector = '.list-view'
-  }
+  // Check if active view mode is Stack (list) or Gallery (grid) mode
+  const viewMode = document.querySelector('.ico')
+  const viewModeActive = viewMode.className.includes('view-option-stack selected')
+    ? 'view-option-stack'
+    : 'view-option-grid'
 
   // Add a li element "0 vendidos" to those products that didn't sell nothing yet
-  const rowItems = [...document.querySelectorAll('.results-item')]
+  const rowItems = [...document.querySelectorAll(soldQuantitySelector)]
   rowItems.forEach(row => {
-    const info = row.querySelector(soldQuantitySelector)
-    if (!info) {
-      row
-        .querySelector(locationSelector)
-        .insertAdjacentHTML('beforebegin', `<li class="${soldQuantitySelector.replace('.', '')}">0 vendidos</li>`)
+    const text = row.innerText
+    if (!text.includes('vendido')) {
+      row.innerText = `0 vendidos - ${text}`
     }
   })
 
   // Sort all the quantity of sold products descendly
-  const rowItemsUpdated = [...document.querySelectorAll('.results-item')]
+  const rowItemsUpdated = [...document.querySelectorAll(itemSelector)]
   const rowItemsSorted = rowItemsUpdated.sort((a, b) => {
     const valueA = a.querySelector(soldQuantitySelector).innerText.replace(/\D/g, '')
     const valueB = b.querySelector(soldQuantitySelector).innerText.replace(/\D/g, '')
