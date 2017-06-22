@@ -1,83 +1,85 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 html {
-    -ms-text-size-adjust: 100%;
-    -webkit-text-size-adjust: 100%;
-    -moz-osx-font-smoothing: grayscale;
-    -webkit-font-smoothing: antialiased;
-    -webkit-tap-highlight-color: transparent;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  -webkit-tap-highlight-color: transparent;
 }
 
 #app {
-    padding: 1em;
-    color: #212121;
-    min-width: 100vw;
-    min-height: 100vh;
-    background-color: #eee;
-    font-family: 'Open Sans', sans-serif;
+  padding: 1em;
+  color: #212121;
+  min-width: 100vw;
+  min-height: 100vh;
+  background-color: #eee;
+  font-family: 'Open Sans', sans-serif;
 }
 
 .center {
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    justify-content: center;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
 }
 
-h1,
-h2 {
-    margin: 0.4em 0em;
+h1, h2 {
+  margin: 0.4em 0em;
 }
 
 .links {
-    margin: 1em 0;
+  margin: 1em 0;
 }
 
 .images {
-    text-align: center
+  text-align: center;
+}
+
+.image {
+  max-width: 1280px;
+  max-height: 800px;
 }
 
 p {
-    font-family: 'Oswald', sans-serif;
-    text-transform: uppercase;
-    border-radius: 4px;
-    font-size: 3em;
+  font-family: 'Oswald', sans-serif;
+  text-transform: uppercase;
+  border-radius: 4px;
+  font-size: 3em;
 }
 
 a {
-    text-decoration: none;
-    margin: 0 0.15em;
+  text-decoration: none;
+  margin: 0 0.15em;
 }
 
-a,
-a:visited,
-a:hover {
-    color: #212121;
-    font-size: 4.2em
+a, a:visited, a:hover {
+  color: #212121;
+  font-size: 4.2em;
 }
 
 img {
-    width: 70vw;
+  width: 70vw;
 }
 
 @media screen and (max-width: 1400px) {
-    img {
-        width: 100vw;
-    }
+  img {
+    width: 100vw;
+  }
 }
 
 .devicon-chrome-plain:hover {
-    color: #4A9F67
+  color: #4A9F67;
 }
 
 .devicon-firefox-plain:hover {
-    color: #D16638
+  color: #D16638;
 }
 
 .devicon-github-plain:hover {
-    color: #7CBAE6
+  color: #7CBAE6;
 }
