@@ -1589,9 +1589,9 @@ hosted-git-info@^2.1.4:
   version "2.4.2"
   resolved "https://registry.yarnpkg.com/hosted-git-info/-/hosted-git-info-2.4.2.tgz#0076b9f46a270506ddbaaea56496897460612a67"
 
-husky@^0.14.2:
-  version "0.14.2"
-  resolved "https://registry.yarnpkg.com/husky/-/husky-0.14.2.tgz#6df06483965d2254db95dd143c445d6d8509b4b8"
+husky@^0.14.3:
+  version "0.14.3"
+  resolved "https://registry.yarnpkg.com/husky/-/husky-0.14.3.tgz#c69ed74e2d2779769a17ba8399b54ce0b63c12c3"
   dependencies:
     is-ci "^1.0.10"
     normalize-path "^1.0.0"
@@ -1957,9 +1957,9 @@ liftoff@^2.1.0:
     rechoir "^0.6.2"
     resolve "^1.1.7"
 
-lint-staged@^4.0.0:
-  version "4.0.0"
-  resolved "https://registry.yarnpkg.com/lint-staged/-/lint-staged-4.0.0.tgz#c15669f598614a6e68090303e175a799d48e0d85"
+lint-staged@^4.0.1:
+  version "4.0.1"
+  resolved "https://registry.yarnpkg.com/lint-staged/-/lint-staged-4.0.1.tgz#05365469898439dbade8a455893cf11e24d12b0f"
   dependencies:
     app-root-path "^2.0.0"
     cosmiconfig "^1.1.0"
