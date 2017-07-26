@@ -1,5 +1,5 @@
 # MercadoLibre Más Vendidos 
-[![XO code style](https://img.shields.io/badge/code_style-XO-5ed9c7.svg)](https://github.com/sindresorhus/xo) [![styled with prettier](https://img.shields.io/badge/styled_with-prettier-ff69b4.svg)](https://github.com/prettier/prettier)
+[![styled with prettier](https://img.shields.io/badge/styled_with-prettier-ff69b4.svg)](https://github.com/prettier/prettier) [![XO code style](https://img.shields.io/badge/code_style-XO-5ed9c7.svg)](https://github.com/sindresorhus/xo) [![license MIT](https://img.shields.io/badge/license-MIT-blue.svg)](https://opensource.org/licenses/MIT) 
 
 [![Chrome Web Store](https://img.shields.io/badge/chrome%20web%20store-v1.0.0-blue.svg)](https://chrome.google.com/webstore/detail/mercadolibre-m%C3%A1s-vendidos/ecmfdhafogloeacbceakgefanbkocdhk)
 [![Chrome Web Store](https://img.shields.io/badge/downloads-393-green.svg)](https://chrome.google.com/webstore/detail/mercadolibre-m%C3%A1s-vendidos/ecmfdhafogloeacbceakgefanbkocdhk)
@@ -10,7 +10,6 @@
 
 ## Requisitos
 * Google Chrome
-* Firefox (soporte a futuro)
 
 ## Por qué?
 MercadoLibre **no ofrece** una manera de visualizar los productos más vendidos de manera descendente
