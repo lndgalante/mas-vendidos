@@ -4,7 +4,7 @@
 [![Chrome Web Store](https://img.shields.io/badge/chrome%20web%20store-v1.0.0-blue.svg)](https://chrome.google.com/webstore/detail/mercadolibre-m%C3%A1s-vendidos/ecmfdhafogloeacbceakgefanbkocdhk)
 [![Chrome Web Store](https://img.shields.io/badge/downloads-393-green.svg)](https://chrome.google.com/webstore/detail/mercadolibre-m%C3%A1s-vendidos/ecmfdhafogloeacbceakgefanbkocdhk)
 [![Chrome Web Store](https://img.shields.io/chrome-web-store/stars/nimelepbpejjlbmoobocpfnjhihnpked.svg)](https://chrome.google.com/webstore/detail/mercadolibre-m%C3%A1s-vendidos/ecmfdhafogloeacbceakgefanbkocdhk/reviews)
-[![Chrome Web Store](https://img.shields.io/badge/rating%20count-9%20total-yellowgreen.svg)](https://chrome.google.com/webstore/detail/mercadolibre-m%C3%A1s-vendidos/ecmfdhafogloeacbceakgefanbkocdhk/reviews)
+[![Chrome Web Store](https://img.shields.io/badge/rating%20count-10%20total-yellowgreen.svg)](https://chrome.google.com/webstore/detail/mercadolibre-m%C3%A1s-vendidos/ecmfdhafogloeacbceakgefanbkocdhk/reviews)
 
 > Busca los artículos más vendidos en MercadoLibre con esta extensión
 
