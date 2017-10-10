@@ -2,9 +2,9 @@
 [![styled with prettier](https://img.shields.io/badge/styled_with-prettier-ff69b4.svg)](https://github.com/prettier/prettier) [![XO code style](https://img.shields.io/badge/code_style-XO-5ed9c7.svg)](https://github.com/sindresorhus/xo) [![license MIT](https://img.shields.io/badge/license-MIT-blue.svg)](https://opensource.org/licenses/MIT) 
 
 [![Chrome Web Store](https://img.shields.io/badge/chrome%20web%20store-v1.0.0-blue.svg)](https://chrome.google.com/webstore/detail/mercadolibre-m%C3%A1s-vendidos/ecmfdhafogloeacbceakgefanbkocdhk)
-[![Chrome Web Store](https://img.shields.io/badge/downloads-477-green.svg)](https://chrome.google.com/webstore/detail/mercadolibre-m%C3%A1s-vendidos/ecmfdhafogloeacbceakgefanbkocdhk)
+[![Chrome Web Store](https://img.shields.io/badge/downloads-545-green.svg)](https://chrome.google.com/webstore/detail/mercadolibre-m%C3%A1s-vendidos/ecmfdhafogloeacbceakgefanbkocdhk)
 [![Chrome Web Store](https://img.shields.io/chrome-web-store/stars/nimelepbpejjlbmoobocpfnjhihnpked.svg)](https://chrome.google.com/webstore/detail/mercadolibre-m%C3%A1s-vendidos/ecmfdhafogloeacbceakgefanbkocdhk/reviews)
-[![Chrome Web Store](https://img.shields.io/badge/rating%20count-12%20total-yellowgreen.svg)](https://chrome.google.com/webstore/detail/mercadolibre-m%C3%A1s-vendidos/ecmfdhafogloeacbceakgefanbkocdhk/reviews)
+[![Chrome Web Store](https://img.shields.io/badge/rating%20count-14%20total-yellowgreen.svg)](https://chrome.google.com/webstore/detail/mercadolibre-m%C3%A1s-vendidos/ecmfdhafogloeacbceakgefanbkocdhk/reviews)
 
 > Busca los artículos más vendidos en MercadoLibre con esta extensión
 
@@ -70,4 +70,4 @@ Recomendación mira las tres primeras páginas. No siempre el más vendido esta 
 
 ## Licencia
 
-MIT © **[`Leonardo Galante`](https://leonardogalante.com/)**
+MIT © **[`Leonardo Galante`](https://leonardogalante.com)**
