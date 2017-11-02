@@ -38,11 +38,25 @@
     "semicolon": false,
     "space": true,
     "rules": {
-      "object-curly-spacing": ["error", "always"]
+      "object-curly-spacing": [
+        "error",
+        "always"
+      ]
     }
   },
   "lint-staged": {
-    "src/*.js": ["npm run lint", "npm run format", "git add"]
+    "src/*.js": [
+      "npm run lint",
+      "npm run format",
+      "git add"
+    ]
   },
-  "keywords": ["mercadolibre", "mas", "vendidos", "extension", "google", "chrome"]
+  "keywords": [
+    "mercadolibre",
+    "mas",
+    "vendidos",
+    "extension",
+    "google",
+    "chrome"
+  ]
 }

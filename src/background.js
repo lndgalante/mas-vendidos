@@ -1,6 +1,7 @@
 /* global chrome */
 /* eslint no-undef: "error" */
 /* eslint func-names: ["error", "always"] */
+/* eslint operator-linebreak: ["error", "before"] */
 
 let enabled
 

@@ -13,12 +13,6 @@ function sortItems() {
   const itemSelector = '.results-item'
   const soldQuantitySelector = '.item__condition'
 
-  // Check if active view mode is Stack (list) or Gallery (grid) mode
-  const viewMode = document.querySelector('.ico')
-  const viewModeActive = viewMode.className.includes('view-option-stack selected')
-    ? 'view-option-stack'
-    : 'view-option-grid'
-
   // Add a li element "0 vendidos" to those products that didn't sell nothing yet
   const rowItems = [...document.querySelectorAll(soldQuantitySelector)]
   rowItems.forEach(row => {
@@ -32,7 +26,9 @@ function sortItems() {
   const rowItemsUpdated = [...document.querySelectorAll(itemSelector)]
   const rowItemsSorted = rowItemsUpdated.sort((a, b) => {
     const valueA = a.querySelector(soldQuantitySelector).innerText.replace(/\D/g, '')
+
     const valueB = b.querySelector(soldQuantitySelector).innerText.replace(/\D/g, '')
+
     return valueA - valueB
   })
 
@@ -41,5 +37,7 @@ function sortItems() {
   listView.innerHTML = null
 
   // Insert all the items sorted descendly
-  rowItemsSorted.forEach(row => listView.insertAdjacentElement('afterbegin', row))
+  rowItemsSorted.forEach(row => {
+    listView.insertAdjacentElement('afterbegin', row)
+  })
 }
