@@ -86,6 +86,10 @@ Recomendación mira las tres primeras páginas. No siempre el más vendido esta 
 
 * [Codedamn - Chrome Extension Tutorials](https://www.youtube.com/watch?v=bqriqrg23Gc&list=PLYxzS__5yYQlDrTush02ZMj-uuZY33NOH)
 
+* [Kyle Robinson Young - How To Make Chrome Extensions](https://www.youtube.com/watch?v=Ipa58NVGs_c)
+
+
+
 ## Licencia
 
 MIT © **[`Leonardo Galante`](https://leonardogalante.com)**
