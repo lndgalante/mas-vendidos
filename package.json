@@ -58,5 +58,8 @@
     "extension",
     "google",
     "chrome"
-  ]
+  ],
+  "engines": {
+    "node": "8.16.0"
+  }
 }
