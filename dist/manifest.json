@@ -3,7 +3,7 @@
   "name": "MercadoLibre Más Vendidos",
   "author": "Leonardo Galante",
   "short_name": "Más Vendidos",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Busca los artículos más vendidos en MercadoLibre con esta extensión",
   "homepage_url": "https://mercadolibre-masvendidos.now.sh",
   "icons": {
@@ -39,18 +39,11 @@
         "*://*.mercadolibre.com.uy/*",
         "*://*.mercadolibre.com.ve/*"
       ],
-      "js": [
-        "src/content-script.js"
-      ]
+      "js": ["src/content-script.js"]
     }
   ],
   "background": {
-    "scripts": [
-      "src/background.js"
-    ]
+    "scripts": ["src/background.js"]
   },
-  "permissions": [
-    "activeTab",
-    "storage"
-  ]
+  "permissions": ["activeTab", "storage"]
 }
