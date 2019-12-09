@@ -57,7 +57,7 @@ function sortItems() {
       const item = flattenData.find(({ id: itemId }) => itemId === id) || { soldQuantity: 0 }
 
       const $soldQuantity = rowItem.querySelector(soldQuantitySelector)
-      $soldQuantity.textContent = `${item.soldQuantity} vendidos - ${$soldQuantity.textContent}`
+      $soldQuantity.textContent = `+${item.soldQuantity} vendidos - ${$soldQuantity.textContent}`
     })
 
     // Sort all the quantity of sold products descendly
