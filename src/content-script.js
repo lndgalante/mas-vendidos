@@ -23,12 +23,11 @@ function sortItems() {
   // Declare ids and class selectors
   const listSelector = '#searchResults'
   const itemSelector = '.results-item'
-  const soldQuantitySelector = '.item__condition'
+  const soldQuantitySelector = '.stack_column_item.status'
 
   // Get all elements IDs
   const rowItems = [...document.querySelectorAll(itemSelector)]
   const ids = rowItems.map(rowItem => getItemId(rowItem)).filter(id => !id || id !== 'MLA')
-  console.log('TCL: sortItems -> ids', ids)
 
   // Create chunks every 20 items, since ML API can only receive until 20 ids
   const idChunks = chunk(ids, 20)
@@ -39,7 +38,6 @@ function sortItems() {
       fetch(`https://api.mercadolibre.com/items?ids=${idChunk.join(',')}&attributes=id,sold_quantity`)
         .then(res => res.json())
         .then(data => {
-          console.log('TCL: sortItems -> data', data)
           return data.map(item => ({
             id: item.body.hasOwnProperty('id') ? item.body.id : 0,
             soldQuantity: item.body.hasOwnProperty('sold_quantity') ? item.body.sold_quantity : 0,
@@ -55,9 +53,14 @@ function sortItems() {
     rowItems.forEach(rowItem => {
       const id = getItemId(rowItem)
       const item = flattenData.find(({ id: itemId }) => itemId === id) || { soldQuantity: 0 }
-
       const $soldQuantity = rowItem.querySelector(soldQuantitySelector)
-      $soldQuantity.textContent = `+${item.soldQuantity} vendidos - ${$soldQuantity.textContent}`
+
+      console.log('TCL: sortItems -> $soldQuantity.textContent', $soldQuantity.textContent)
+      console.log($soldQuantity.textContent)
+      const hasTextContent = Boolean($soldQuantity.textContent.trim(''))
+      $soldQuantity.textContent = `${item.soldQuantity > 0 ? '+' : ''}${item.soldQuantity} vendidos${
+        hasTextContent ? ' - ' : ''
+      }${$soldQuantity.textContent}`
     })
 
     // Sort all the quantity of sold products descendly

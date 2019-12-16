@@ -1,6 +1,6 @@
 {
   "name": "mercadolibre-mas-vendidos",
-  "version": "1.1.0",
+  "version": "1.1.2",
   "description": "Busca los artículos más vendidos en MercadoLibre con esta extensión",
   "repository": "fenwil/mercadolibre-masvendidos",
   "homepage": "https://mercadolibre-masvendidos.now.sh",
