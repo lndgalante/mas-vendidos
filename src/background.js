@@ -6,7 +6,7 @@
 let enabled
 
 function onBrowserStart() {
-  chrome.storage.sync.get({ enabled: true }, items => {
+  chrome.storage.sync.get({ enabled: true }, (items) => {
     enabled = items.enabled
   })
   checkIcon()

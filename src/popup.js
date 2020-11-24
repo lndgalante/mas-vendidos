@@ -4,7 +4,7 @@
 const btnUpdate = document.querySelector('#btnUpdate')
 btnUpdate.addEventListener('click', updateState)
 
-chrome.runtime.sendMessage('getState', enabled => {
+chrome.runtime.sendMessage('getState', (enabled) => {
   btnUpdate.innerHTML = enabled ? 'Desactivar' : 'Activar'
 })
 

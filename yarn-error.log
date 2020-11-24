@@ -1,0 +1,95 @@
+Arguments: 
+  /Users/leo/.nvm/versions/node/v15.2.0/bin/node /usr/local/Cellar/yarn/1.22.4/libexec/bin/yarn.js
+
+PATH: 
+  /Users/leo/.nvm/versions/node/v15.2.0/bin:/Users/leo/.deno/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/Apple/usr/bin:/Users/leo/.nvm/versions/node/v15.2.0/bin:/Users/leo/.deno/bin:/Users/leo/Library/Android/sdk/emulator:/Users/leo/Library/Android/sdk/tools:/Users/leo/Library/Android/sdk/tools/bin:/Users/leo/Library/Android/sdk/platform-tools:/Users/leo/Library/Android/sdk/emulator:/Users/leo/Library/Android/sdk/tools:/Users/leo/Library/Android/sdk/tools/bin:/Users/leo/Library/Android/sdk/platform-tools
+
+Yarn version: 
+  1.22.4
+
+Node version: 
+  15.2.0
+
+Platform: 
+  darwin x64
+
+Trace: 
+  SyntaxError: /Users/leo/Projects/mas-vendidos/package.json: Unexpected token / in JSON at position 1390
+      at JSON.parse (<anonymous>)
+      at /usr/local/Cellar/yarn/1.22.4/libexec/lib/cli.js:1625:59
+      at Generator.next (<anonymous>)
+      at step (/usr/local/Cellar/yarn/1.22.4/libexec/lib/cli.js:310:30)
+      at /usr/local/Cellar/yarn/1.22.4/libexec/lib/cli.js:321:13
+
+npm manifest: 
+  {
+    "name": "mercadolibre-mas-vendidos",
+    "version": "1.1.2",
+    "description": "Busca los artículos más vendidos en MercadoLibre con esta extensión",
+    "repository": "fenwil/mercadolibre-masvendidos",
+    "homepage": "https://mercadolibre-masvendidos.now.sh",
+    "license": "MIT",
+    "author": {
+      "name": "Leonardo Galante",
+      "email": "lndgalante@gmail.com",
+      "url": "leonardogalante.com"
+    },
+    "contributors": [
+      {
+        "name": "Micael Robles",
+        "email": "micael.robles@gmail.com",
+        "url": "micaelrobles.info"
+      }
+    ],
+    "devDependencies": {
+      "babel-core": "^6.26.0",
+      "babel-preset-es2015": "^6.24.1",
+      "gulp": "^3.9.1",
+      "gulp-babel": "^7.0.0",
+      "gulp-uglify": "^3.0.0",
+      "husky": "^0.14.3",
+      "lint-staged": "^6.0.1",
+      "prettier": "^1.10.2",
+      "xo": "^0.18.2"
+    },
+    "scripts": {
+      "format": "prettier --print-width 120 --trailing-comma es5 --single-quote --no-semi --write",
+      "precommit": "lint-staged",
+      "lint": "xo --quiet",
+      "build": "gulp"
+    },
+    "xo": {
+      "semicolon": false,
+      "space": true,
+      "rules": {
+        "object-curly-spacing": [
+          "error",
+          "always"
+        ]
+      }
+    },
+    "lint-staged": {
+      "src/*.js": [
+        "npm run lint",
+        "npm run format",
+        "git add"
+      ]
+    },
+    "keywords": [
+      "mercadolibre",
+      "mas",
+      "vendidos",
+      "extension",
+      "google",
+      "chrome"
+    ],
+    // "engines": {
+    //   "node": "8.16.0"
+    // }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
